@@ -42,6 +42,18 @@ input {
   margin-right: auto;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
 ul {
   list-style: none;
   margin: 0;
