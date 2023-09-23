@@ -147,6 +147,14 @@ ul {
 
 .article {
   grid-column: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fit, 250px);
+  gap: 15px;
+}
+
+.article .card {
+  height: 200px;
 }
 
 .footer {
