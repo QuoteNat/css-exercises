@@ -5,6 +5,7 @@
 
 .container {
   text-align: center;
+  height: 100%;
 }
 
 .container div {
@@ -138,8 +139,8 @@ ul {
 }
 
 .sidebar>div {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   display: grid;
   justify-content: center;
   align-items: center;
